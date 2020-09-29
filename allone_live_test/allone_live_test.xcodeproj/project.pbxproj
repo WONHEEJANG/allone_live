@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD6657E2522D4C900EFD4F0 /* allone_live_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD6657D2522D4C900EFD4F0 /* allone_live_testApp.swift */; };
+		ECD665802522D4C900EFD4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD6657F2522D4C900EFD4F0 /* ContentView.swift */; };
+		ECD665822522D4CC00EFD4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD665812522D4CC00EFD4F0 /* Assets.xcassets */; };
+		ECD665852522D4CC00EFD4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD665842522D4CC00EFD4F0 /* Preview Assets.xcassets */; };
+		ECD665902522D4CC00EFD4F0 /* allone_live_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD6658F2522D4CC00EFD4F0 /* allone_live_testTests.swift */; };
+		ECD6659B2522D4CC00EFD4F0 /* allone_live_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD6659A2522D4CC00EFD4F0 /* allone_live_testUITests.swift */; };
+		ECD665B92522DCAA00EFD4F0 /* mongolia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECD665B82522DCAA00EFD4F0 /* mongolia.jpg */; };
+		ECD665D12522FB0700EFD4F0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD665D02522FB0700EFD4F0 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD6658C2522D4CC00EFD4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD665722522D4C900EFD4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD665792522D4C900EFD4F0;
+			remoteInfo = allone_live_test;
+		};
+		ECD665972522D4CC00EFD4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD665722522D4C900EFD4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD665792522D4C900EFD4F0;
+			remoteInfo = allone_live_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD6657A2522D4C900EFD4F0 /* allone_live_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = allone_live_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD6657D2522D4C900EFD4F0 /* allone_live_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allone_live_testApp.swift; sourceTree = "<group>"; };
+		ECD6657F2522D4C900EFD4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECD665812522D4CC00EFD4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD665842522D4CC00EFD4F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECD665862522D4CC00EFD4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD6658B2522D4CC00EFD4F0 /* allone_live_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = allone_live_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD6658F2522D4CC00EFD4F0 /* allone_live_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allone_live_testTests.swift; sourceTree = "<group>"; };
+		ECD665912522D4CC00EFD4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD665962522D4CC00EFD4F0 /* allone_live_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = allone_live_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD6659A2522D4CC00EFD4F0 /* allone_live_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allone_live_testUITests.swift; sourceTree = "<group>"; };
+		ECD6659C2522D4CC00EFD4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD665B82522DCAA00EFD4F0 /* mongolia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mongolia.jpg; path = ../../../mongolia.jpg; sourceTree = "<group>"; };
+		ECD665D02522FB0700EFD4F0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD665772522D4C900EFD4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD665882522D4CC00EFD4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD665932522D4CC00EFD4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD665712522D4C900EFD4F0 = {
+			isa = PBXGroup;
+			children = (
+				ECD6657C2522D4C900EFD4F0 /* allone_live_test */,
+				ECD6658E2522D4CC00EFD4F0 /* allone_live_testTests */,
+				ECD665992522D4CC00EFD4F0 /* allone_live_testUITests */,
+				ECD6657B2522D4C900EFD4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD6657B2522D4C900EFD4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6657A2522D4C900EFD4F0 /* allone_live_test.app */,
+				ECD6658B2522D4CC00EFD4F0 /* allone_live_testTests.xctest */,
+				ECD665962522D4CC00EFD4F0 /* allone_live_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD6657C2522D4C900EFD4F0 /* allone_live_test */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6657D2522D4C900EFD4F0 /* allone_live_testApp.swift */,
+				ECD6657F2522D4C900EFD4F0 /* ContentView.swift */,
+				ECD665D02522FB0700EFD4F0 /* ViewModel.swift */,
+				ECD665812522D4CC00EFD4F0 /* Assets.xcassets */,
+				ECD665B82522DCAA00EFD4F0 /* mongolia.jpg */,
+				ECD665862522D4CC00EFD4F0 /* Info.plist */,
+				ECD665832522D4CC00EFD4F0 /* Preview Content */,
+			);
+			path = allone_live_test;
+			sourceTree = "<group>";
+		};
+		ECD665832522D4CC00EFD4F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECD665842522D4CC00EFD4F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECD6658E2522D4CC00EFD4F0 /* allone_live_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6658F2522D4CC00EFD4F0 /* allone_live_testTests.swift */,
+				ECD665912522D4CC00EFD4F0 /* Info.plist */,
+			);
+			path = allone_live_testTests;
+			sourceTree = "<group>";
+		};
+		ECD665992522D4CC00EFD4F0 /* allone_live_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6659A2522D4CC00EFD4F0 /* allone_live_testUITests.swift */,
+				ECD6659C2522D4CC00EFD4F0 /* Info.plist */,
+			);
+			path = allone_live_testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD665792522D4C900EFD4F0 /* allone_live_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD6659F2522D4CC00EFD4F0 /* Build configuration list for PBXNativeTarget "allone_live_test" */;
+			buildPhases = (
+				ECD665762522D4C900EFD4F0 /* Sources */,
+				ECD665772522D4C900EFD4F0 /* Frameworks */,
+				ECD665782522D4C900EFD4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = allone_live_test;
+			productName = allone_live_test;
+			productReference = ECD6657A2522D4C900EFD4F0 /* allone_live_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD6658A2522D4CC00EFD4F0 /* allone_live_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD665A22522D4CC00EFD4F0 /* Build configuration list for PBXNativeTarget "allone_live_testTests" */;
+			buildPhases = (
+				ECD665872522D4CC00EFD4F0 /* Sources */,
+				ECD665882522D4CC00EFD4F0 /* Frameworks */,
+				ECD665892522D4CC00EFD4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD6658D2522D4CC00EFD4F0 /* PBXTargetDependency */,
+			);
+			name = allone_live_testTests;
+			productName = allone_live_testTests;
+			productReference = ECD6658B2522D4CC00EFD4F0 /* allone_live_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD665952522D4CC00EFD4F0 /* allone_live_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD665A52522D4CC00EFD4F0 /* Build configuration list for PBXNativeTarget "allone_live_testUITests" */;
+			buildPhases = (
+				ECD665922522D4CC00EFD4F0 /* Sources */,
+				ECD665932522D4CC00EFD4F0 /* Frameworks */,
+				ECD665942522D4CC00EFD4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD665982522D4CC00EFD4F0 /* PBXTargetDependency */,
+			);
+			name = allone_live_testUITests;
+			productName = allone_live_testUITests;
+			productReference = ECD665962522D4CC00EFD4F0 /* allone_live_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD665722522D4C900EFD4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					ECD665792522D4C900EFD4F0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					ECD6658A2522D4CC00EFD4F0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = ECD665792522D4C900EFD4F0;
+					};
+					ECD665952522D4CC00EFD4F0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = ECD665792522D4C900EFD4F0;
+					};
+				};
+			};
+			buildConfigurationList = ECD665752522D4C900EFD4F0 /* Build configuration list for PBXProject "allone_live_test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD665712522D4C900EFD4F0;
+			productRefGroup = ECD6657B2522D4C900EFD4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD665792522D4C900EFD4F0 /* allone_live_test */,
+				ECD6658A2522D4CC00EFD4F0 /* allone_live_testTests */,
+				ECD665952522D4CC00EFD4F0 /* allone_live_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD665782522D4C900EFD4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD665852522D4CC00EFD4F0 /* Preview Assets.xcassets in Resources */,
+				ECD665B92522DCAA00EFD4F0 /* mongolia.jpg in Resources */,
+				ECD665822522D4CC00EFD4F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD665892522D4CC00EFD4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD665942522D4CC00EFD4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD665762522D4C900EFD4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD665802522D4C900EFD4F0 /* ContentView.swift in Sources */,
+				ECD665D12522FB0700EFD4F0 /* ViewModel.swift in Sources */,
+				ECD6657E2522D4C900EFD4F0 /* allone_live_testApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD665872522D4CC00EFD4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD665902522D4CC00EFD4F0 /* allone_live_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD665922522D4CC00EFD4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD6659B2522D4CC00EFD4F0 /* allone_live_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD6658D2522D4CC00EFD4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD665792522D4C900EFD4F0 /* allone_live_test */;
+			targetProxy = ECD6658C2522D4CC00EFD4F0 /* PBXContainerItemProxy */;
+		};
+		ECD665982522D4CC00EFD4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD665792522D4C900EFD4F0 /* allone_live_test */;
+			targetProxy = ECD665972522D4CC00EFD4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECD6659D2522D4CC00EFD4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECD6659E2522D4CC00EFD4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD665A02522D4CC00EFD4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"allone_live_test/Preview Content\"";
+				DEVELOPMENT_TEAM = 7MM9R793M6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = allone_live_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonheejang.allone-live-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD665A12522D4CC00EFD4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"allone_live_test/Preview Content\"";
+				DEVELOPMENT_TEAM = 7MM9R793M6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = allone_live_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonheejang.allone-live-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECD665A32522D4CC00EFD4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MM9R793M6;
+				INFOPLIST_FILE = allone_live_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonheejang.allone-live-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/allone_live_test.app/allone_live_test";
+			};
+			name = Debug;
+		};
+		ECD665A42522D4CC00EFD4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MM9R793M6;
+				INFOPLIST_FILE = allone_live_testTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonheejang.allone-live-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/allone_live_test.app/allone_live_test";
+			};
+			name = Release;
+		};
+		ECD665A62522D4CC00EFD4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MM9R793M6;
+				INFOPLIST_FILE = allone_live_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonheejang.allone-live-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = allone_live_test;
+			};
+			name = Debug;
+		};
+		ECD665A72522D4CC00EFD4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MM9R793M6;
+				INFOPLIST_FILE = allone_live_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wonheejang.allone-live-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = allone_live_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD665752522D4C900EFD4F0 /* Build configuration list for PBXProject "allone_live_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD6659D2522D4CC00EFD4F0 /* Debug */,
+				ECD6659E2522D4CC00EFD4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD6659F2522D4CC00EFD4F0 /* Build configuration list for PBXNativeTarget "allone_live_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD665A02522D4CC00EFD4F0 /* Debug */,
+				ECD665A12522D4CC00EFD4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD665A22522D4CC00EFD4F0 /* Build configuration list for PBXNativeTarget "allone_live_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD665A32522D4CC00EFD4F0 /* Debug */,
+				ECD665A42522D4CC00EFD4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD665A52522D4CC00EFD4F0 /* Build configuration list for PBXNativeTarget "allone_live_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD665A62522D4CC00EFD4F0 /* Debug */,
+				ECD665A72522D4CC00EFD4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD665722522D4C900EFD4F0 /* Project object */;
+}
